@@ -20,6 +20,13 @@ if (env.NODE_ENV === 'development') {
 }
 
 // API Routes
+app.get('/', (req, res) => {
+  res.status(200).json({
+    status: 'success',
+    message: 'Privacy Complaint System API is running successfully!'
+  });
+});
+
 app.use('/api/v1', routes);
 
 // 404 Handler
