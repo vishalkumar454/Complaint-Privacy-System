@@ -1,0 +1,22 @@
+.chat-interface-container {
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+.chat-info-panel {
+  border-right: 1px solid var(--border);
+}
+
+.info-block p {
+  margin: 0;
+  color: var(--text-primary);
+}
+
+.message-row {
+  margin-bottom: 0.5rem;
+}
+
+.message-bubble {
+  line-height: 1.5;
+  font-size: 0.95rem;
+}
