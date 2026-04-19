@@ -14,7 +14,8 @@ app.use(helmet());
 const allowedOrigins = [
   env.CLIENT_URL, 
   'http://localhost:5173', 
-  'https://complaint-privacy-system.vercel.app'
+  'https://complaint-privacy-system.vercel.app',
+  'https://complaint-privacy-system-ksynl11b7.vercel.app'
 ];
 app.use(cors({ 
   origin: function (origin, callback) {
